@@ -1,4 +1,7 @@
 
+
+/usr/libexec/s2i/assemble
+
 echo 'executing assemble' 
 
 cp -Rf /tmp/src/*.html ./
