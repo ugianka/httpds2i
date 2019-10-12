@@ -1,0 +1,11 @@
+#!/bin/sh -c
+
+
+cp /tmp/*.html ./
+echo "questo è l'index blindato" > ./index.html
+
+DATE=$(date "+%Y-%m-%d")
+
+echo "builded on $DATE and proud of it" > ./info.html
+
+
