@@ -1,4 +1,6 @@
 
+echo 'executing assemble' 
+
 cp -Rf /tmp/src/*.html ./
 
 echo "questo è l'index blindato" > ./index.html
@@ -8,3 +10,4 @@ DATE=$(date "+%Y-%m-%d")
 echo "builded on $DATE and proud of it" > ./info.html
 
 
+echo assemble script finished
