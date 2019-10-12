@@ -1,5 +1,6 @@
 
-cp -Rf ./tmp/*.html ./
+cp -Rf /tmp/src/*.html ./
+
 echo "questo è l'index blindato" > ./index.html
 
 DATE=$(date "+%Y-%m-%d")
